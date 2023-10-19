@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+.main_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    line-height: 2.7;
+}
+.square:hover{
+    background-color: #caf7cd;
+}
+
+#message {
+    font-size: 24px;
+    margin: 10px;
+}
+
+#reset {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+#reset:hover {
+    background-color: #45a049;
+}
